@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Delftware | Charger</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="item-content.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" img src="delft_page_image\favicon.png" href="file:///C:/Users/hards/lc101/JennyJunkstore/index.html"></a>
+      <p class="navbar-text">Porcelain | 18" dia | c.1910</p>
+    </div>
+    </div>
+  </nav>
+
+  <div class="container text-center">
+
+  <div class="row">
+    <hr>
+    <br>
+    <div class="col-xs-12">
+      <h4>Ready? The offer's listed below..</h4>
+      <img src="delft_page_image\showcase_delph_platter.jpg"  class="img-responsive" alt="Image">
+      <h4>The arrows adjust the price..</h4>
+    </div>
+
+
+<!-- button 'sub' subtracts the  amount i.e. 100 minus 10 -->
+    <div class="col-xs-4">
+      <button id="sub" onclick="changePriceSub()" type="button" class="btn btn-responsive btn-lg">
+        <img src="delft_page_image\dn_arrow.jpg"  class="img-responsive"  alt="Image">
+      </button>
+    </div>
+
+<!-- submit button 'bidPrice' subtracts the  amount i.e. 100 minus 10 -->
+    <div  class="col-xs-4">
+        <button id="bidPrice" onclick="bidOK()" type="submit" class="btn btn-responsive btn-lg">
+        <p id='gamePrice'>$</p>
+<script type="text/javascript">
+        document.getElementById("gamePrice").value = 5000;
+</script>
+<!--       <p>src="js/item-content.js"</p>  -->
+    </div>
+
+    <div class="col-xs-4">
+      <button id="add" type="button" onclick="changePriceAdd()" class="btn btn-responsive btn-lg">
+        <img src="delft_page_image\up_arrow.jpg"  class="img-responsive"  alt="Image">
+      </button>
+    </div>
+  </br>
+  </div>
+
+
+
+
+  <hr>
+  <h4>Then Press the Price to Bid</h4>
+
+  </div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="c:\users\hards\lc101\Jacqueline\index.html">J | A </a>
+      <p class="navbar-text">Visit our Partner Jacqueline | Antiques</p>
+    </div>
+  </div>
+</nav>
+
+</body>
+</html>
+
+<!--
+    <div class="btn-group btn-group-lg btn-group-responsive" role="group" aria-label="bid calculator">
+      <button type="button" class="btn btn-responsive">
+        <img src="delft_page_image\dn_arrow.jpg"  class="img-responsive" alt="Image">
+      </button>
+      <button type="button" class="btn btn-responsive">$</button>
+      <button type="button" class="btn btn-responsive">
+        <img src="delft_page_image\up_arrow.jpg"  class="img-responsive"  alt="Image">
+      </button>
+    </div>
+-->

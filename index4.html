@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Jenny's Junk | Flea Market Online</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Image Zoom Tour with jQuery" />
+        <meta name="keywords" content="jquery, zoom, tour, images, zoom in, zoom out, plugin, css3" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+		</noscript>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Ultra' rel='stylesheet' type='text/css' />
+    </head>
+
+
+    <body>
+		<div class="container">
+			<div class="header">
+        <a href="c:\users\hards\lc101\Jacqueline\index.html"><span>&laquo; JACQUELINE|ANTIQUES </span>CLICK HERE</a>
+				<span class="right_ab">
+					<a href="c:\users\hards\lc101\PaigePage\index.html"><strong>click here for paige's page</strong></a>
+        </span>
+			</div>
+
+      <h1>Flea Market Online  <span>Booth No.414</span></h1>
+
+  		<div id="zt-container" class="zt-container">
+				<div class="zt-item" data-id="zt-item-1">
+					<img class="zt-current" src="images/image4.jpg" />
+					<div class="zt-tag" data-link="zt-item-2" style="top:138px;left:151px;"></div>
+					<div class="zt-tag" data-link="zt-item-3" style="top:253px;left:520px;"></div>
+					<div class="zt-tag" data-link="zt-item-4" style="top:161px;left:321px;"></div>
+					<div class="zt-tag" data-link="zt-item-5" style="top:74px;left:267px;"></div>
+					<div class="zt-tag" data-link="zt-item-6" style="top:109px;left:387px;"></div>
+				</div>
+				<div class="zt-item" data-id="zt-item-2">
+					<img class="zt-current" src="images/image2_1.jpg" />
+					<div class="zt-tag zt-tag-back" data-link="zt-item-1"></div>
+				</div>
+				<div class="zt-item" data-id="zt-item-3">
+					<img class="zt-current" src="images/image2_2.jpg" />
+					<div class="zt-tag zt-tag-back" data-link="zt-item-1"></div>
+				</div>
+				<div class="zt-item" data-id="zt-item-4">
+					<img class="zt-current" src="images/image2_3.jpg" />
+					<div class="zt-tag zt-tag-back" data-link="zt-item-1"></div>
+				</div>
+				<div class="zt-item" data-id="zt-item-5">
+					<img class="zt-current" src="images/image2_4.jpg" />
+					<div class="zt-tag zt-tag-back" data-link="zt-item-1"></div>
+				</div>
+				<div class="zt-item" data-id="zt-item-6">
+					<img class="zt-current" src="images/image2_5.jpg" />
+					<div class="zt-tag zt-tag-back" data-link="zt-item-1"></div>
+				</div>
+			</div>
+			<div class="more">
+				<ul>
+          <li>more vendors</li>
+  					<li><a href="index.html">Booth 721</a></li>
+  					<li><a href="index2.html">Booth 552</a></li>
+  					<li><a href="index3.html">Booth 103</a></li>
+  					<li class="selected"><a href="index4.html">Booth 414</a></li>
+  					<li><a href="index5.html">Booth 415</a></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.transform-0.9.3.min_.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.zoomtour.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#zt-container').zoomtour({
+					rotation:false
+				});
+			});
+		</script>
+    </body>
+</html>
